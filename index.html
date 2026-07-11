@@ -1,0 +1,1441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- =====================================
+                    META
+    ====================================== -->
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Employee Salary Analytics</title>
+
+    <!-- =====================================
+                GOOGLE FONT
+    ====================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- =====================================
+                TABLER ICONS
+    ====================================== -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+
+    <!-- =====================================
+                    CSS
+    ====================================== -->
+
+    <link rel="stylesheet" href="assets/css/variables.css" />
+
+    <link rel="stylesheet" href="assets/css/reset.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" href="assets/css/animation.css" />
+  </head>
+
+  <body>
+    <!-- =====================================
+                HEADER
+    ====================================== -->
+
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <!-- Logo -->
+
+          <a href="#" class="logo">
+            <i class="ti ti-chart-dots-3"></i>
+
+            <span> Employee Salary Analytics </span>
+          </a>
+
+          <!-- Navigation -->
+
+          <ul class="nav-menu">
+            <li>
+              <a href="#about"> About </a>
+            </li>
+
+            <li>
+              <a href="#architecture"> Architecture </a>
+            </li>
+
+            <li>
+              <a href="#features"> Features </a>
+            </li>
+
+            <li>
+              <a href="#documentation"> Documentation </a>
+            </li>
+          </ul>
+
+          <div class="mobile-menu-button">
+            <i class="ti ti-menu-2" aria-hidden="true"></i>
+          </div>
+
+          <!-- Github -->
+
+          <a
+            href="https://github.com/good-pastel"
+            target="_blank"
+            class="github-button"
+            rel="noopener noreferrer"
+aria-label="Open GitHub Repository">
+          
+            <i class="ti ti-brand-github" aria-hidden="true"></i>
+
+            Github
+          </a>
+        </nav>
+        <div class="mobile-menu">
+          <a href="#about"> About </a>
+
+          <a href="#architecture"> Architecture </a>
+
+          <a href="#features"> Features </a>
+
+          <a href="#documentation"> Documentation </a>
+
+          <a href="https://github.com/good-pastel" target="_blank"> Github </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- =====================================
+                HERO
+    ====================================== -->
+
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <!-- LEFT -->
+
+          <div class="hero-content fade-up">
+            <span class="hero-badge">
+              <i class="ti ti-brand-python" aria-hidden="true"></i>
+
+              Python • Linked List • Analytics Library
+            </span>
+
+            <h1 class="hero-title">
+              Employee Salary
+
+              <span>Analytics</span>
+            </h1>
+
+            <p class="hero-description">
+              A custom data analytics library built using Python Linked List.
+              This project provides CRUD operations, dynamic filtering,
+              grouping, salary statistics, and employee analytics.
+            </p>
+
+            <div class="hero-tags">
+              <span>Linked List</span>
+
+              <span>CRUD</span>
+
+              <span>Statistics API</span>
+
+              <span>Grouping</span>
+
+              <span>Filtering</span>
+
+              <span>Distribution</span>
+            </div>
+
+            <div class="hero-buttons" title="View Source Code on GitHub">
+              <a
+                href="https://github.com/good-pastel"
+                target="_blank"
+                class="button-primary"
+              >
+                <i class="ti ti-brand-github" aria-hidden="true"></i>
+
+                View Github
+              </a>
+
+              <a href="#documentation" class="button-secondary">
+                Documentation
+              </a>
+            </div>
+          </div>
+
+          <!-- RIGHT -->
+
+          <div class="hero-preview fade-up">
+            <div class="dashboard-card card-hover">
+              <div class="dashboard-header">
+                <h3>Analytics Overview</h3>
+
+                <i class="ti ti-chart-bar" aria-hidden="true"></i>
+              </div>
+
+              <div class="stat-item">
+                <span> Employees </span>
+
+                <strong> 608 </strong>
+              </div>
+
+              <div class="stat-item">
+                <span> Average Salary </span>
+
+                <strong> $112K </strong>
+              </div>
+
+              <div class="stat-item">
+                <span> Highest Salary </span>
+
+                <strong> $600K </strong>
+              </div>
+
+              <div class="stat-item">
+                <span> Lowest Salary </span>
+
+                <strong> $2.8K </strong>
+              </div>
+
+              <div class="dashboard-footer">
+                <span> Python </span>
+
+                <span> Linked List </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================
+                ABOUT
+                (NEXT PHASE)
+        ====================================== -->
+
+      <section id="about">
+        <div class="container">
+          <div class="section-header fade-up">
+            <span class="section-badge"> About This Project </span>
+
+            <h2>Built From Scratch Using Python</h2>
+
+            <p>
+              Employee Salary Analytics is a custom analytics library developed
+              entirely in Python using a manually implemented Linked List data
+              structure. The project demonstrates object-oriented programming,
+              CRUD operations, statistical analysis, grouping, filtering, and
+              clean architecture without relying on external data processing
+              libraries.
+            </p>
+          </div>
+
+          <div class="about-tags">
+            <span>Python Linked List</span>
+
+            <span>Built From Scratch</span>
+
+            <span>Object Oriented</span>
+
+            <span>Statistics API</span>
+
+            <span>Filter API</span>
+
+            <span>CRUD</span>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card fade-up">
+              <i class="ti ti-brand-python" aria-hidden="true"></i>
+
+              <h3>Python Linked List</h3>
+
+              <p>
+                A custom Linked List implementation created from scratch without
+                using Python's built-in list as the main storage structure.
+              </p>
+            </article>
+
+            <article class="feature-card fade-up">
+              <i class="ti ti-box-model-2" aria-hidden="true"></i>
+
+              <h3>Object Oriented</h3>
+
+              <p>
+                The project follows object-oriented principles by separating
+                Employee, Node, and LinkedList into independent classes.
+              </p>
+            </article>
+
+            <article class="feature-card fade-up">
+              <i class="ti ti-edit" aria-hidden="true"></i>
+
+              <h3>CRUD Operations</h3>
+
+              <p>
+                Supports Create, Read, Update, Delete, Search, and Batch Update
+                operations.
+              </p>
+            </article>
+
+            <article class="feature-card fade-up">
+              <i class="ti ti-chart-bar" aria-hidden="true"></i>
+
+              <h3>Statistics API</h3>
+
+              <p>
+                Calculate totals, averages, highest salary, lowest salary,
+                grouping and salary distribution.
+              </p>
+            </article>
+
+            <article class="feature-card fade-up">
+              <i class="ti ti-filter" aria-hidden="true"></i>
+
+              <h3>Filter API</h3>
+
+              <p>
+                Dynamic filtering by any employee attribute using Python's
+                getattr().
+              </p>
+            </article>
+
+            <article class="feature-card fade-up">
+              <i class="ti ti-code" aria-hidden="true"></i>
+
+              <h3>Built From Scratch</h3>
+
+              <p>
+                Designed for learning data structures, algorithms and software
+                architecture.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+                ARCHITECTURE
+========================================= -->
+
+      <section id="architecture" class="architecture">
+        <div class="container">
+          <div class="section-header fade-up">
+            <span class="section-badge"> Project Architecture </span>
+
+            <h2>How The Application Works</h2>
+
+            <p>
+              This project follows a layered architecture. Data starts from the
+              CSV dataset, is converted into Employee objects, stored inside a
+              custom Linked List, processed by multiple APIs, and finally
+              displayed through the application.
+            </p>
+          </div>
+
+          <div class="architecture-flow">
+            <div class="architecture-card fade-up">
+              <div class="architecture-icon">
+                <i class="ti ti-file-spreadsheet" aria-hidden="true"></i>
+              </div>
+
+              <h3>ds_salaries.csv</h3>
+
+              <span class="architecture-badge"> 📥 Dataset </span>
+
+              <p>Stores the employee salary dataset used by the application.</p>
+            </div>
+
+            <div class="flow-arrow">
+              <i class="ti ti-arrow-down" aria-hidden="true"></i>
+            </div>
+            <div class="architecture-card fade-up">
+              <div class="architecture-icon">
+                <i class="ti ti-database-import" aria-hidden="true"></i>
+              </div>
+
+              <h3>csv_loader.py</h3>
+
+              <span class="architecture-badge"> 📥 Data Import </span>
+
+              <p>
+                Reads the CSV dataset and converts every row into an Employee
+                object.
+              </p>
+            </div>
+
+            <div class="flow-arrow">
+              <i class="ti ti-arrow-down" aria-hidden="true"></i>
+            </div>
+            <div class="architecture-card fade-up">
+              <div class="architecture-icon">
+                <i class="ti ti-user" aria-hidden="true"></i>
+              </div>
+
+              <h3>employee.py</h3>
+
+              <span class="architecture-badge"> 🏷 Data Model </span>
+
+              <p>
+                Represents a single employee record with salary, job title, work
+                year, experience level, and other attributes.
+              </p>
+            </div>
+
+            <div class="flow-arrow">
+              <i class="ti ti-arrow-down" aria-hidden="true"></i>
+            </div>
+            <div class="architecture-card fade-up">
+              <div class="architecture-icon">
+                <i class="ti ti-box" aria-hidden="true"></i>
+              </div>
+
+              <h3>node.py</h3>
+
+              <span class="architecture-badge"> 🔗 Linked List Node </span>
+
+              <p>
+                Wraps every Employee object into a node that can be connected
+                inside the Linked List.
+              </p>
+            </div>
+
+            <div class="flow-arrow">
+              <i class="ti ti-arrow-down" aria-hidden="true"></i>
+            </div>
+            <div class="architecture-card fade-up featured">
+              <div class="architecture-icon">
+                <i class="ti ti-list-tree" aria-hidden="true"></i>
+              </div>
+
+              <h3>linked_list.py</h3>
+
+              <span class="architecture-badge"> ⭐ Core Library </span>
+
+              <p>
+                Acts as the core of the application by managing the custom
+                Linked List and providing all business logic.
+              </p>
+
+              <div class="architecture-api-list">
+                <span>CRUD</span>
+
+                <span>Statistics</span>
+
+                <span>Grouping</span>
+
+                <span>Filter</span>
+
+                <span>Distribution</span>
+              </div>
+            </div>
+
+            <div class="flow-arrow">
+              <i class="ti ti-arrow-down" aria-hidden="true"></i>
+            </div>
+            <div class="architecture-card fade-up">
+              <div class="architecture-icon">
+                <i class="ti ti-terminal-2" aria-hidden="true"></i>
+              </div>
+
+              <h3>main.py</h3>
+
+              <span class="architecture-badge"> 🚀 Entry Point </span>
+
+              <p>
+                Loads the dataset, calls the APIs, and displays the analytics
+                results.
+              </p>
+            </div>
+
+            <div class="flow-arrow">
+              <i class="ti ti-arrow-down" aria-hidden="true"></i>
+            </div>
+            <div class="architecture-card fade-up">
+              <div class="architecture-icon">
+                <i class="ti ti-report-analytics" aria-hidden="true"></i>
+              </div>
+
+              <h3>Employee Salary Analytics</h3>
+
+              <span class="architecture-badge"> 📊 Output </span>
+
+              <p>
+                Presents salary insights generated from the custom Linked List.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+                FEATURES
+========================================= -->
+
+      <section id="features" class="features">
+        <div class="container">
+          <!-- Section Header -->
+
+          <div class="section-header fade-up">
+            <span class="section-badge"> Project Features </span>
+
+            <h2>Powerful APIs Built From Scratch</h2>
+
+            <p>
+              The Employee Salary Analytics Library provides a collection of
+              reusable APIs built on top of a custom Linked List implementation.
+              Each API focuses on solving common employee analytics tasks while
+              demonstrating object-oriented programming and clean software
+              design.
+            </p>
+          </div>
+
+          <!-- ===============================
+                FEATURES GRID
+        ================================ -->
+
+          <div class="features-grid">
+            <!-- PUBLIC API -->
+
+            <div class="api-group-title fade-up">
+              <span>PUBLIC API</span>
+
+              <p>
+                APIs that can be called directly by applications using the
+                Employee Salary Analytics Library.
+              </p>
+            </div>
+
+            <!-- CRUD -->
+
+            <article class="feature-api-card fade-up">
+              <div class="feature-api-icon">
+                <i class="ti ti-edit" aria-hidden="true"></i>
+              </div>
+
+              <h3>CRUD API</h3>
+
+              <span class="feature-api-badge"> Data Management </span>
+
+              <p class="api-description">
+                Provides fundamental Linked List operations for managing
+                employee records, including insertion, updating, deletion,
+                retrieval, and list traversal while preserving data integrity.
+              </p>
+
+              <div class="api-information">
+                <div class="api-item">
+                  <span class="api-label"> Signature </span>
+
+                  <code> append(data) </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Returns </span>
+
+                  <code> None </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Complexity </span>
+
+                  <code> O(n) </code>
+                </div>
+              </div>
+
+              <button class="toggle-details">
+                View Details
+
+                <i class="ti ti-chevron-down" aria-hidden="true"></i>
+              </button>
+
+              <div class="api-details">
+                <h4>Methods</h4>
+
+                <ul>
+                  <li>append(data)</li>
+
+                  <li>display(limit=None)</li>
+
+                  <li>__len__()</li>
+
+                  <li>delete_by_index(index)</li>
+
+                  <li>insert_before_by_index(index, data)</li>
+
+                  <li>insert_after_by_index(index, data)</li>
+
+                  <li>update_by_index(index, attribute, value)</li>
+                </ul>
+
+                <h4>Developer Notes</h4>
+
+                <p>
+                  Adds new Employee objects while preserving insertion order.
+                  Public methods reuse private helper methods to reduce
+                  duplicated logic.
+                </p>
+
+                <div class="code-preview">
+                  <div class="code-header">
+                    <span></span>
+
+                    <span></span>
+
+                    <span></span>
+
+                    <small>crud.py</small>
+                  </div>
+
+                  <pre><code>ll.append(employee)</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- Statistics -->
+
+            <article class="feature-api-card fade-up featured-api">
+              <div class="feature-api-icon">
+                <i class="ti ti-chart-bar" aria-hidden="true"></i>
+              </div>
+
+              <h3>Statistics API</h3>
+
+              <span class="feature-api-badge"> 🌟Analytics </span>
+
+              <p class="api-description">
+                Provides statistical operations for analyzing employee salary
+                data, including totals, averages, minimums, and maximums using
+                efficient Linked List traversal.
+              </p>
+
+              <div class="api-information">
+                <div class="api-item">
+                  <span class="api-label"> Signature </span>
+
+                  <code> average_salary() </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Returns </span>
+
+                  <code> float </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Complexity </span>
+
+                  <code> O(n) </code>
+                </div>
+              </div>
+
+              <button class="toggle-details">
+                View Details
+
+                <i class="ti ti-chevron-down" aria-hidden="true"></i>
+              </button>
+
+              <div class="api-details">
+                <h4>Methods</h4>
+
+                <ul>
+                  <li>count()</li>
+
+                  <li>total_salary()</li>
+
+                  <li>average_salary()</li>
+
+                  <li>highest_salary()</li>
+
+                  <li>lowest_salary()</li>
+                </ul>
+
+                <h4>Developer Notes</h4>
+
+                <p>
+                  Returns complete Employee objects for highest and lowest
+                  salary, allowing access to all employee attributes instead of
+                  salary only.
+                </p>
+
+                <div class="code-preview">
+                  <div class="code-header">
+                    <span></span>
+
+                    <span></span>
+
+                    <span></span>
+
+                    <small>statistic.py</small>
+                  </div>
+
+                  <pre><code>avg = ll.average_salary()
+
+print(avg)</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- Grouping -->
+
+            <article class="feature-api-card fade-up">
+              <div class="feature-api-icon">
+                <i class="ti ti-layout-grid" aria-hidden="true"></i>
+              </div>
+
+              <h3>Grouping API</h3>
+
+              <span class="feature-api-badge"> Aggregation </span>
+
+              <p class="api-description">
+                Provides dynamic grouping operations that aggregate employee
+                records by any valid Employee attribute, enabling grouped counts
+                and salary analysis.
+              </p>
+
+              <div class="api-information">
+                <div class="api-item">
+                  <span class="api-label"> Signature </span>
+
+                  <code> count_by(attribute) </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Returns </span>
+
+                  <code> dict </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Complexity </span>
+
+                  <code> O(n) </code>
+                </div>
+              </div>
+
+              <button class="toggle-details">
+                View Details
+
+                <i class="ti ti-chevron-down" aria-hidden="true"></i>
+              </button>
+
+              <div class="api-details">
+                <h4>Methods</h4>
+
+                <ul>
+                  <li>count_by(attribute)</li>
+
+                  <li>total_salary_by(attribute)</li>
+
+                  <li>average_salary_by(attribute)</li>
+
+                  <li>highest_salary_by(attribute)</li>
+
+                  <li>lowest_salary_by(attribute)</li>
+                </ul>
+
+                <h4>Developer Notes</h4>
+
+                <p>
+                  Groups employee records dynamically using any valid Employee
+                  attribute.
+                </p>
+
+                <div class="code-preview">
+                  <div class="code-header">
+                    <span></span>
+
+                    <span></span>
+
+                    <span></span>
+
+                    <small>grouping.py</small>
+                  </div>
+
+                  <pre><code>result = ll.average_salary_by(
+    "experience_level"
+)
+
+print(result["SE"])</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- Filter -->
+
+            <article class="feature-api-card fade-up">
+              <div class="feature-api-icon">
+                <i class="ti ti-filter" aria-hidden="true"></i>
+              </div>
+
+              <h3>Filter API</h3>
+
+              <span class="feature-api-badge"> Query </span>
+
+              <p class="api-description">
+                Provides flexible filtering and bulk update operations using
+                dynamic attributes while preserving the original Linked List
+                structure whenever possible.
+              </p>
+
+              <div class="api-information">
+                <div class="api-item">
+                  <span class="api-label"> Signature </span>
+
+                  <code> filter_by(attribute, value) </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Returns </span>
+
+                  <code> LinkedList </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Complexity </span>
+
+                  <code> O(n) </code>
+                </div>
+              </div>
+
+              <button class="toggle-details">
+                View Details
+
+                <i class="ti ti-chevron-down" aria-hidden="true"></i>
+              </button>
+
+              <div class="api-details">
+                <h4>Methods</h4>
+
+                <ul>
+                  <li>filter_by(attribute, value)</li>
+
+                  <li>update_all_by(attribute, old_value, new_value)</li>
+
+                  <li>remove_all_by(attribute, value)</li>
+                </ul>
+
+                <h4>Developer Notes</h4>
+
+                <p>
+                  Returns a new LinkedList instead of modifying the original
+                  list, allowing additional operations to be chained safely.
+                </p>
+
+                <div class="code-preview">
+                  <div class="code-header">
+                    <span></span>
+
+                    <span></span>
+
+                    <span></span>
+
+                    <small>filter.py</small>
+                  </div>
+
+                  <pre><code>filtered = ll.filter_by(
+    "experience_level",
+    "SE"
+)
+
+filtered.display()</code></pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- Distribution -->
+
+            <article class="feature-api-card fade-up">
+              <div class="feature-api-icon">
+                <i class="ti ti-chart-histogram" aria-hidden="true"></i>
+              </div>
+
+              <h3>Distribution API</h3>
+
+              <span class="feature-api-badge"> Visualization Ready </span>
+
+              <p class="api-description">
+                Groups employee salaries into configurable ranges, making the
+                data suitable for histogram generation and salary distribution
+                analysis.
+              </p>
+
+              <div class="api-information">
+                <div class="api-item">
+                  <span class="api-label"> Signature </span>
+
+                  <code> salary_distribution(interval=100000) </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Returns </span>
+
+                  <code> dict </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Complexity </span>
+
+                  <code> O(n) </code>
+                </div>
+              </div>
+
+              <button class="toggle-details">
+                View Details
+
+                <i class="ti ti-chevron-down" aria-hidden="true"></i>
+              </button>
+
+              <div class="api-details">
+                <h4>Methods</h4>
+
+                <ul>
+                  <li>salary_distribution(interval=100000)</li>
+                </ul>
+
+                <h4>Developer Notes</h4>
+
+                <p>
+                  Groups salaries into configurable intervals suitable for
+                  histogram and chart visualization.
+                </p>
+
+                <div class="code-preview">
+                  <div class="code-header">
+                    <span></span>
+
+                    <span></span>
+
+                    <span></span>
+
+                    <small>distribution.py</small>
+                  </div>
+
+                  <pre><code>distribution = ll.salary_distribution()</code></pre>
+                </div>
+              </div>
+            </article>
+            <!-- =========================
+                      INTERNAL API
+            ========================= -->
+
+            <div class="api-group-title internal fade-up">
+              <span>INTERNAL API</span>
+
+              <p>
+                Provides internal utility methods that simplify node
+                manipulation, attribute validation, and reusable Linked List
+                operations while reducing duplicated logic.
+              </p>
+            </div>
+            <article class="feature-api-card helper-card fade-up">
+              <div class="feature-api-icon">
+                <i class="ti ti-tool" aria-hidden="true"></i>
+              </div>
+
+              <h3>Helper Methods</h3>
+
+              <span class="feature-api-badge"> Internal Utility </span>
+
+              <p class="api-description">
+                Provides statistical analysis for employee salaries stored
+                inside the custom Linked List.
+              </p>
+
+              <div class="api-information">
+                <div class="api-item">
+                  <span class="api-label"> Signature </span>
+
+                  <code> _is_valid_attribute(attribute) </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Returns </span>
+
+                  <code> bool </code>
+                </div>
+
+                <div class="api-item">
+                  <span class="api-label"> Complexity </span>
+
+                  <code> O(1) </code>
+                </div>
+              </div>
+
+              <button class="toggle-details">
+                View Details
+
+                <i class="ti ti-chevron-down" aria-hidden="true"></i>
+              </button>
+
+              <div class="api-details">
+                <h4>Methods</h4>
+
+                <ul>
+                  <li>_is_valid_attribute(attribute)</li>
+
+                  <li>_validate_value(attribute, value)</li>
+
+                  <li>_insert_between(previous, new_node)</li>
+
+                  <li>_remove_node(previous, current)</li>
+                </ul>
+
+                <h4>Developer Notes</h4>
+
+                <p>
+                  Internal helper methods are shared across multiple public APIs
+                  to keep the Linked List implementation clean, reusable, and
+                  maintainable.
+                </p>
+
+                <div class="code-preview">
+                  <div class="code-header">
+                    <span></span>
+
+                    <span></span>
+
+                    <span></span>
+
+                    <small>linked_list.py</small>
+                  </div>
+
+                  <pre><code># Internal Use Only</code></pre>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================
+            DOCUMENTATION
+            (NEXT PHASE)
+        ====================================== -->
+
+      <section id="documentation" class="documentation">
+        <div class="container">
+          <div class="section-title fade-up">
+            <span class="section-badge"> Documentation </span>
+
+            <h2>Employee Salary Analytics Documentation</h2>
+
+            <p>
+              Employee Salary Analytics is a custom Python library that demonstrates how real-world employee salary data can be managed and analyzed using a manually implemented Linked List. The project includes CRUD operations, filtering, grouping, statistical analysis, and salary distribution without relying on external data processing libraries such as Pandas.
+            </p>
+          </div>
+          <!-- ===============================
+      DOCUMENTATION GRID
+================================ -->
+
+          <div class="documentation-grid">
+            <!-- INSTALL -->
+
+            <article class="documentation-card fade-up">
+              <div class="documentation-icon">
+                <i class="ti ti-download"aria-hidden="true"> </i>
+              </div>
+
+              <h3>Installation</h3>
+
+              <p>
+                Clone the repository and run the application locally using Python. The project is built entirely with the Python Standard Library and does not require any third-party dependencies.
+              </p>
+
+              <div class="code-preview">
+                <div class="code-header">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+
+                  <small>terminal</small>
+                </div>
+
+                <pre><code>git clone https://github.com/good-pastel/employee-salary-analytics
+
+cd employee-salary-analytics
+
+python main.py</code></pre>
+              </div>
+            </article>
+
+            <!-- QUICK START -->
+
+            <article class="documentation-card fade-up">
+              <div class="documentation-icon">
+                <i class="ti ti-player-play aria-hidden="true""></i>
+              </div>
+
+              <h3>Quick Start</h3>
+
+              <p>
+                Load employee records from a CSV dataset into a custom Linked List implementation, then perform CRUD operations, filtering, grouping, and salary analytics using the available APIs.
+              </p>
+
+              <div class="code-preview">
+                <div class="code-header">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+
+                  <small>main.py</small>
+                </div>
+
+                <pre><code>employees = load_csv()
+
+ll = LinkedList()
+
+for employee in employees:
+    ll.append(employee)
+
+print(ll.average_salary())</code></pre>
+              </div>
+            </article>
+
+            <!-- REQUIREMENTS -->
+
+            <article class="documentation-card fade-up">
+              <div class="documentation-icon">
+                <i class="ti ti-package" aria-hidden="true"></i>
+              </div>
+
+              <h3>Environment</h3>
+
+              <p>
+                Built entirely with the Python standard library, making the
+                project lightweight and easy to run.
+              </p>
+
+              <ul class="requirement-list">
+                <li>Python 3.10+</li>
+
+                <li>CSV Dataset (ds_salaries.csv)</li>
+
+                <li>Standard Library only</li>
+              </ul>
+            </article>
+
+            <!-- LICENSE -->
+
+            <article class="documentation-card fade-up">
+              <div class="documentation-icon">
+                <i class="ti ti-license" aria-hidden="true"></i>
+              </div>
+
+              <h3>License</h3>
+
+              <p>
+                This project is available for learning purposes and demonstrates
+                a custom Linked List implementation for employee salary
+                analytics.
+              </p>
+
+              <div class="license-box">
+                <strong>Learning Project</strong>
+
+                <span>Open Source Project</span>
+              </div>
+            </article>
+          </div>
+          <!-- ===============================
+      PROJECT STRUCTURE
+================================ -->
+
+<div class="project-structure fade-up">
+
+    <div class="section-subtitle">
+
+        <span class="section-badge">
+
+            Project Structure
+
+        </span>
+
+        <h3>Source Code Organization</h3>
+
+        <p>
+
+            The project is organized into separate Python modules,
+            making the code easier to maintain, extend, and reuse.
+
+        </p>
+
+    </div>
+
+    <div class="structure-window">
+
+        <div class="window-header">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <small>Explorer</small>
+
+        </div>
+
+        <div class="folder-tree">
+          <div class="tree-item folder">
+    <i class="ti ti-folder" aria-hidden="true"></i>
+    <strong>employee_salary_analytics</strong>
+</div>
+
+<div class="tree-indent">
+
+    <div class="tree-item folder">
+        <i class="ti ti-folder" aria-hidden="true"></i>
+        <strong>python</strong>
+    </div>
+
+    <div class="tree-indent">
+
+        <div class="tree-item">
+            <i class="ti ti-file-code" aria-hidden="true"></i>
+            employee.py
+
+            <span class="tree-tag">Model</span>
+        </div>
+
+        <div class="tree-item">
+            <i class="ti ti-file-code" aria-hidden="true"></i>
+            node.py
+
+            <span class="tree-tag">Node</span>
+        </div>
+
+        <div class="tree-item featured-file">
+
+            <i class="ti ti-file-code" aria-hidden="true"></i>
+
+            linked_list.py
+
+            <span class="tree-tag primary">
+
+                Core Library
+
+            </span>
+
+        </div>
+
+        <div class="tree-item">
+            <i class="ti ti-file-code" aria-hidden="true"></i>
+            csv_loader.py
+
+            <span class="tree-tag">
+
+                Import
+
+            </span>
+
+        </div>
+
+        <div class="tree-item">
+            <i class="ti ti-file-code" aria-hidden="true"></i>
+            main.py
+
+            <span class="tree-tag">
+
+                Entry Point
+
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="tree-item folder">
+
+        <i class="ti ti-folder" aria-hidden="true"></i>
+
+        <strong>web</strong>
+
+    </div>
+
+    <div class="tree-indent">
+
+        <div class="tree-item">
+
+            <i class="ti ti-folder" aria-hidden="true"></i>
+
+            assets
+
+        </div>
+
+        <div class="tree-item">
+
+            <i class="ti ti-file-text" aria-hidden="true"></i>
+
+            index.html
+
+        </div>
+
+    </div>
+
+    <div class="tree-item">
+
+        <i class="ti ti-file-description" aria-hidden="true"></i>
+
+        README.md
+
+    </div>
+
+    <div class="tree-item">
+
+        <i class="ti ti-license" aria-hidden="true"></i>
+
+        LICENSE
+
+    </div>
+
+</div>
+        </div>
+      </section>
+    </main>
+
+          </section>
+    </main>
+
+    <!-- ======================================
+                    FOOTER
+    ======================================= -->
+
+    <footer class="footer">
+
+      <div class="container">
+
+        <div class="footer-grid">
+
+          <!-- ABOUT -->
+
+          <div class="footer-column">
+
+            <a href="#" class="footer-logo">
+
+              <i class="ti ti-chart-dots-3" aria-hidden="true"></i>
+
+              <span>Employee Salary Analytics</span>
+
+            </a>
+
+            <p>
+
+              A custom Python Linked List library built entirely from scratch
+              for employee salary management and analytics.
+
+            </p>
+
+          </div>
+
+          <!-- NAVIGATION -->
+
+          <div class="footer-column">
+
+            <h4>Navigation</h4>
+
+            <ul>
+
+              <li><a href="#about">About</a></li>
+
+              <li><a href="#architecture">Architecture</a></li>
+
+              <li><a href="#features">Features</a></li>
+
+              <li><a href="#documentation">Documentation</a></li>
+
+            </ul>
+
+          </div>
+
+          <!-- PROJECT -->
+
+          <div class="footer-column">
+
+            <h4>Project</h4>
+
+            <ul>
+
+              <li>
+                <a href="https://github.com/good-pastel" target="_blank">
+                  GitHub
+                </a>
+              </li>
+
+              <li>
+                <a href="README.md" target="_blank">
+                  README
+                </a>
+              </li>
+
+              <li>
+                <a href="LICENSE" target="_blank">
+                  License
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <!-- BUILT WITH -->
+
+          <div class="footer-column">
+
+            <h4>Built With</h4>
+
+            <div class="footer-badges">
+
+              <span>🐍 Python</span>
+
+              <span>💜 HTML5</span>
+
+              <span>💙 CSS3</span>
+
+              <span>💛 JavaScript</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p>
+
+            © 2026 Designed, developed, and documented by Devi Yolanda • Built with Python, HTML, CSS and JavaScript.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+
+    <script src="assets/js/animation.js"></script>
+
+</body>
+</html>
+
+    <!-- =====================================
+                JAVASCRIPT
+    ====================================== -->
+
+    <script src="assets/js/app.js"></script>
+
+    <script src="assets/js/animation.js"></script>
+
+    <script src="assets/js/charts.js"></script>
+  </body>
+</html>
