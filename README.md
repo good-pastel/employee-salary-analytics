@@ -32,11 +32,11 @@ Visit the project documentation website:
 - [Project Architecture](#-project-architecture)
 - [Project Structure](#-project-structure)
 - [Technologies](#-technologies)
-- [Implemented Operations](#-implemented-operations)
-- [Dataset](#-dataset)
-- [Screenshots](#-screenshots)
-- [Learning Objectives](#-learning-objectives)
-- [Author](#-author)
+- [Implemented Operations](#implemented-operations)
+- [Dataset](#dataset)
+- [Screenshots](#screenshots)
+- [Learning Objectives](#learning-objectives)
+- [Author](#author)
 
 ---
 
