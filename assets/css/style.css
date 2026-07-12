@@ -2668,6 +2668,7 @@ button,
   }
 
   .documentation-card {
+    grid-template-columns: 1fr;
     padding: 24px;
   }
 
@@ -2816,6 +2817,9 @@ button,
     grid-template-columns: 1fr;
   }
   .documentation-grid {
+    grid-template-columns: 1fr;
+  }
+  .documentation-card {
     grid-template-columns: 1fr;
   }
 }
