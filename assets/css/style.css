@@ -2496,12 +2496,14 @@ button,
   transform: rotate(90deg);
 }
 
-/*======================================
-      DISTRIBUTION SIGNATURE
-======================================*/
+/* Distribution Signature */
 
-.mobile-break {
-  display: none;
+.distribution-signature code {
+  white-space: pre;
+}
+
+.distribution-indent {
+  display: inline;
 }
 
 /*==================================================
@@ -2859,19 +2861,16 @@ button,
     padding: 14px 12px;
     text-align: center;
   }
+
   .distribution-signature code {
     white-space: pre-wrap;
 
-    word-break: normal;
-
-    overflow-wrap: anywhere;
-
-    line-height: 1.8;
+    overflow-x: visible;
   }
 
-  .mobile-break::after {
-    content: "\A    ";
+  .distribution-indent {
+    display: block;
 
-    white-space: pre;
+    padding-left: 22px;
   }
 }
