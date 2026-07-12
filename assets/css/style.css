@@ -2496,6 +2496,14 @@ button,
   transform: rotate(90deg);
 }
 
+/*======================================
+      DISTRIBUTION SIGNATURE
+======================================*/
+
+.mobile-break {
+  display: none;
+}
+
 /*==================================================
             RESPONSIVE 
 ==================================================*/
@@ -2851,11 +2859,19 @@ button,
     padding: 14px 12px;
     text-align: center;
   }
-  .api-item code {
-    overflow-x: auto;
+  .distribution-signature code {
+    white-space: pre-wrap;
 
-    white-space: nowrap;
+    word-break: normal;
 
-    -webkit-overflow-scrolling: touch;
+    overflow-wrap: anywhere;
+
+    line-height: 1.8;
+  }
+
+  .mobile-break::after {
+    content: "\A    ";
+
+    white-space: pre;
   }
 }
