@@ -2873,4 +2873,9 @@ button,
 
     padding-left: 22px;
   }
+  .code-preview code {
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
 }
