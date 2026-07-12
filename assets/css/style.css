@@ -2851,4 +2851,11 @@ button,
     padding: 14px 12px;
     text-align: center;
   }
+  .api-item code {
+    overflow-x: auto;
+
+    white-space: nowrap;
+
+    -webkit-overflow-scrolling: touch;
+  }
 }
