@@ -162,7 +162,7 @@ For this project, **`salary_in_usd`** is used as the primary source for all sala
 
 The original dataset also provides the columns **`salary`** and **`salary_currency`**. However, these fields are intentionally excluded because salaries are reported in different local currencies, making direct comparisons inaccurate.
 
-Using the normalized **`salary_in_usd`** values ensures that all statistical calculations—including average salary, highest salary, lowest salary, total salary, and salary distribution—are performed on a consistent and comparable scale.
+Using the normalized **`salary_in_usd`** values ensures that all statistical calculations, including average salary, highest salary, lowest salary, total salary, and salary distribution are performed on a consistent and comparable scale.
 
 This design simplifies the implementation while producing meaningful and reliable analytical results.
 
