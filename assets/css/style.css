@@ -2663,6 +2663,10 @@ button,
     padding: 90px 0;
   }
 
+  .documentation-grid {
+    grid-template-columns: 1fr;
+  }
+
   .documentation-card {
     padding: 24px;
   }
@@ -2808,7 +2812,10 @@ button,
     width: 100%;
   }
 
-  .features-grid {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+  .documentation-grid {
     grid-template-columns: 1fr;
   }
 }
