@@ -2658,6 +2658,7 @@ button,
   .features-grid {
     grid-template-columns: 1fr;
   }
+
   .documentation {
     padding: 90px 0;
   }
@@ -2805,5 +2806,9 @@ button,
 
   .dashboard-footer span {
     width: 100%;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
   }
 }
