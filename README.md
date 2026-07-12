@@ -178,10 +178,6 @@ This design simplifies the implementation while producing meaningful and reliabl
 
 ![Features](screenshoots/features.png)
 
-### Statistics
-
-![Statistics](screenshoots/statistics.png)
-
 ### Documentation
 
 ![Documentation](screenshoots/documentation.png)
