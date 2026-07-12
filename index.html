@@ -137,7 +137,7 @@ aria-label="Open GitHub Repository">
             </h1>
 
             <p class="hero-description">
-             Project ini merupakan library analisis data berbasis <b>Python</b> yang mengimplementasikan struktur data <b>Linked List</b>. Library ini mendukung operasi <b>CRUD</b>, <b>Filtering</b>, <b>Grouping</b>, <b>Statistics API</b>, <b>distribusi gaji</b>, dan berbagai analisis statistik untuk mengeksplorasi dataset karyawan.
+             Project ini merupakan library analisis data berbasis <b>Python</b> yang mengimplementasikan struktur data <b>Linked List</b>. Library ini mendukung operasi <b>CRUD</b>, <b>Filtering</b>, <b>Grouping</b>, <b>Statistics</b>, distribusi gaji, dan berbagai analisis untuk mengeksplorasi dataset karyawan.
             </p>
 
             <div class="hero-tags">
@@ -145,7 +145,7 @@ aria-label="Open GitHub Repository">
 
               <span>CRUD</span>
 
-              <span>Statistics API</span>
+              <span>Statistics</span>
 
               <span>Grouping</span>
 
@@ -239,9 +239,9 @@ aria-label="Open GitHub Repository">
 
             <span>Object Oriented</span>
 
-            <span>Statistics API</span>
+            <span>Statistics</span>
 
-            <span>Filter API</span>
+            <span>Filter</span>
 
             <span>CRUD</span>
           </div>
@@ -280,7 +280,7 @@ aria-label="Open GitHub Repository">
             <article class="feature-card fade-up">
               <i class="ti ti-chart-bar" aria-hidden="true"></i>
 
-              <h3>Statistics API</h3>
+              <h3>Statistics</h3>
 
               <p>
                 Menghitung berbagai statistik seperti total gaji, rata-rata, gaji tertinggi, gaji terendah, pengelompokan data, dan distribusi gaji.
@@ -290,7 +290,7 @@ aria-label="Open GitHub Repository">
             <article class="feature-card fade-up">
               <i class="ti ti-filter" aria-hidden="true"></i>
 
-              <h3>Filter API</h3>
+              <h3>Filter</h3>
 
               <p>
                 Mendukung dynamic filtering berdasarkan berbagai atribut karyawan menggunakan fungsi <b>getattr()</b> pada Python.
@@ -467,10 +467,10 @@ aria-label="Open GitHub Repository">
           <div class="section-header fade-up">
             <span class="section-badge"> Fitur Project </span>
 
-            <h2>API Library yang Dibangun dari Awal</h2>
+            <h2>Library yang Dibangun dari Awal</h2>
 
             <p>
-              <b>Employee Salary Analytics</b> menyediakan kumpulan API yang dapat digunakan kembali untuk mengelola dan menganalisis data karyawan. Seluruh API dibangun di atas implementasi <b>Linked List</b> yang dikembangkan sendiri serta menerapkan prinsip <b>Object-Oriented Programming (OOP)</b> dan desain kode yang modular.
+              <b>Employee Salary Analytics</b> menyediakan kumpulan method yang dapat digunakan kembali untuk mengelola dan menganalisis data karyawan. Seluruh method dibangun di atas implementasi <b>Linked List</b> yang dikembangkan sendiri serta menerapkan prinsip <b>Object-Oriented Programming (OOP)</b> dan desain kode yang modular.
             </p>
           </div>
 
@@ -479,13 +479,13 @@ aria-label="Open GitHub Repository">
         ================================ -->
 
           <div class="features-grid">
-            <!-- PUBLIC API -->
+            <!-- PUBLIC METHOD -->
 
             <div class="api-group-title fade-up">
-              <span>PUBLIC API</span>
+              <span>PUBLIC METHOD</span>
 
               <p>
-                Kumpulan API yang dapat dipanggil langsung oleh aplikasi atau pengguna library untuk mengelola dan menganalisis data.
+                Kumpulan method yang dapat dipanggil langsung oleh aplikasi atau pengguna library untuk mengelola dan menganalisis data.
               </p>
             </div>
 
@@ -496,7 +496,7 @@ aria-label="Open GitHub Repository">
                 <i class="ti ti-edit" aria-hidden="true"></i>
               </div>
 
-              <h3>CRUD API</h3>
+              <h3>CRUD OPERATION</h3>
 
               <span class="feature-api-badge"> Data Management </span>
 
@@ -658,7 +658,7 @@ print(avg)</code></pre>
                 <i class="ti ti-layout-grid" aria-hidden="true"></i>
               </div>
 
-              <h3>Grouping API</h3>
+              <h3>Grouping</h3>
 
               <span class="feature-api-badge"> Aggregation </span>
 
@@ -740,7 +740,7 @@ print(result["SE"])</code></pre>
                 <i class="ti ti-filter" aria-hidden="true"></i>
               </div>
 
-              <h3>Filter API</h3>
+              <h3>Filter</h3>
 
               <span class="feature-api-badge"> Query </span>
 
@@ -788,7 +788,7 @@ print(result["SE"])</code></pre>
                 <h4>Implementation Notes</h4>
 
                 <p>
-                  Filtering dilakukan secara dinamis menggunakan getattr(), sehingga API dapat bekerja dengan berbagai atribut tanpa membuat method khusus untuk setiap field.
+                  Filtering dilakukan secara dinamis menggunakan getattr(), sehingga method dapat bekerja dengan berbagai atribut tanpa membuat method khusus untuk setiap field.
                 </p>
 
                 <div class="code-preview">
@@ -819,7 +819,7 @@ filtered.display()</code></pre>
                 <i class="ti ti-chart-histogram" aria-hidden="true"></i>
               </div>
 
-              <h3>Distribution API</h3>
+              <h3>Distribution</h3>
 
               <span class="feature-api-badge"> Data Distribution </span>
 
@@ -863,7 +863,7 @@ filtered.display()</code></pre>
                 <h4>Implementation Notes</h4>
 
                 <p>
-                  Nilai interval dapat disesuaikan melalui parameter interval, sehingga distribusi gaji dapat ditampilkan dengan tingkat detail yang berbeda tanpa mengubah implementasi API.
+                  Nilai interval dapat disesuaikan melalui parameter interval, sehingga distribusi gaji dapat ditampilkan dengan tingkat detail yang berbeda tanpa mengubah implementasi method.
                 </p>
 
                 <div class="code-preview">
@@ -882,14 +882,14 @@ filtered.display()</code></pre>
               </div>
             </article>
             <!-- =========================
-                      INTERNAL API
+                      INTERNAL METHOD
             ========================= -->
 
             <div class="api-group-title internal fade-up">
               <span>INTERNAL API</span>
 
               <p>
-              Menyediakan helper method internal yang digunakan oleh Public API untuk menangani manipulasi Linked List, validasi data, serta logika yang digunakan kembali agar implementasi tetap konsisten dan mudah dipelihara.
+              Menyediakan helper method internal yang digunakan oleh Public METHOD untuk menangani manipulasi Linked List, validasi data, serta logika yang digunakan kembali agar implementasi tetap konsisten dan mudah dipelihara.
               </p>
             </div>
             <article class="feature-api-card helper-card fade-up">
@@ -902,7 +902,7 @@ filtered.display()</code></pre>
               <span class="feature-api-badge"> Internal Utility </span>
 
               <p class="api-description">
-                Menyediakan helper method private yang digunakan oleh Public API untuk mengurangi duplikasi kode dan menjaga konsistensi implementasi Linked List.
+                Menyediakan helper method private yang digunakan oleh Public Method untuk mengurangi duplikasi kode dan menjaga konsistensi implementasi Linked List.
               </p>
 
               <div class="api-information">
@@ -947,7 +947,7 @@ filtered.display()</code></pre>
                 <h4>Implementation Notes</h4>
 
                 <p>
-                  Beberapa Public API menggunakan helper method yang sama sehingga logika tidak ditulis berulang dan implementasi tetap mudah dipelihara.
+                  Beberapa Public Method menggunakan helper method yang sama sehingga logika tidak ditulis berulang dan implementasi tetap mudah dipelihara.
                 </p>
 
                 <div class="code-preview">
@@ -983,7 +983,7 @@ self._is_valid_attribute(attribute)</code></pre>
             <h2>Dokumentasi Employee Salary Analytics.</h2>
 
             <p>
-              Employee Salary Analytics merupakan library berbasis <b>Python</b> yang mengimplementasikan struktur data <b>Linked List</b> untuk mengelola dan menganalisis data gaji karyawan. Library ini menyediakan operasi <b>CRUD</b>, <b>Filtering</b>, <b>Grouping</b>, <b>Statistics API</b>, serta <b>Salary Distribution</b> tanpa bergantung pada library analisis data seperti <b>Pandas</b>.
+              Employee Salary Analytics merupakan library berbasis <b>Python</b> yang mengimplementasikan struktur data <b>Linked List</b> untuk mengelola dan menganalisis data gaji karyawan. Library ini menyediakan operasi <b>CRUD</b>, <b>Filtering</b>, <b>Grouping</b>, <b>Statistics</b>, serta <b>Salary Distribution</b> tanpa bergantung pada library analisis data seperti <b>Pandas</b>.
             </p>
           </div>
           <!-- ===============================
@@ -1031,7 +1031,7 @@ python main.py</code></pre>
               <h3>Quick Start</h3>
 
               <p>
-                Muat dataset CSV ke dalam implementasi Linked List, kemudian gunakan API yang tersedia untuk melakukan operasi CRUD, Filtering, Grouping, serta analisis data gaji.
+                Muat dataset CSV ke dalam implementasi Linked List, kemudian gunakan Method yang tersedia untuk melakukan operasi CRUD, Filtering, Grouping, serta analisis data gaji.
               </p>
 
               <div class="code-preview">
@@ -1076,7 +1076,7 @@ print(ll.average_salary())</code></pre>
               </ul>
             </article>
 
-            <!-- LICENSE -->
+            <!-- PROJECT INFORMATION -->
 
             <article class="documentation-card fade-up">
               <div class="documentation-icon">
