@@ -2706,6 +2706,19 @@ button,
     align-items: flex-start;
   }
 
+  .hero-tags {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+  .hero-tags span {
+    width: 100%;
+    justify-content: center;
+    padding: 14px 12px;
+    text-align: center;
+  }
+
   .button-primary,
   .button-secondary {
     width: 100%;
@@ -2824,5 +2837,18 @@ button,
   }
   .documentation-card {
     grid-template-columns: 1fr;
+  }
+
+  .hero-tags {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+  .hero-tags span {
+    width: 100%;
+    justify-content: center;
+    padding: 14px 12px;
+    text-align: center;
   }
 }
