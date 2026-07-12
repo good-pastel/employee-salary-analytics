@@ -90,15 +90,15 @@ Statistics & Analytics
 ```text
 employee-salary-analytics/
 │
-├── data/
-│   └── ds_salaries.csv
-│
-├── employee.py
-├── linked_list.py
-├── csv_loader.py
-├── node.py
-├── main.py
-│
+├── python/
+│   ├── employee.py
+│   └── node.py
+│       └── linked_list.py
+│   ├── csv_loader.py
+│   └── main.py
+├── web/
+│   ├── assets/
+│   └── index.html
 └── README.md
 ```
 
