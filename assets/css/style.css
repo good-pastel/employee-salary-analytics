@@ -1854,6 +1854,9 @@ body::after {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
 
   transition: 0.35s;
+
+  min-width: 0;
+  overflow: hidden;
 }
 
 .documentation-card:hover {
